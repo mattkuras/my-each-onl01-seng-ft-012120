@@ -1,3 +1,8 @@
-def my_each # put argument(s) here
-  # code here
+def my_each(array)
+  while 
+  i = 0 
+  i < array.length 
+   yield (array[i])
+    i = i + 1
+  end
 end
